@@ -65,9 +65,9 @@
  * TODO: challenge-2
  * * generics
  * ? challenge-2.ts
- * TODO: lesson #
- * *
- * ? .ts
+ * TODO: lesson #8
+ * * generics (keyof)
+ * ? generics-with-keyof.ts
  * TODO: lesson #
  * *
  * ? .ts
