@@ -16,9 +16,6 @@
  * programs - in other words, a tool that runs before your code runs (static)
  * and ensures that the types of the program are correct (typechecked)."
  *
- * try to call null/undefined, function with wrong parameters
- * help code faster, what are the right fields
- *
  * * how to install typescript
  * npm init -> to init a project (package.json)
  * npm install typescript -D -> to install typescript as dev-dependency

@@ -15,7 +15,7 @@ console.log(pluck(dogs, "name"));
 
 /* ++++++++++++++++++++++++++++++++++++++++++++ */
 
-// the great nature of this implementation is that you cannot mess up your code
+// with this implementation is that you cannot mess up your code
 // sendEvent is checked and intellisense supports the development
 
 interface BaseEvent {
@@ -27,21 +27,21 @@ interface Event {
   checkout: BaseEvent;
 }
 
-function sendEvent<Name extends keyof Event>(
+function createEvent<Name extends keyof Event>(
   name: Name,
   data: Event[Name]
 ): void {
   console.log([name, data]);
 }
 
-sendEvent("addToCart", {
+createEvent("addToCart", {
   productID: "a",
   user: "primo",
   quantity: 1,
   time: 10,
 });
 
-sendEvent("checkout", {
+createEvent("checkout", {
   user: "primo",
   time: 10,
 });
