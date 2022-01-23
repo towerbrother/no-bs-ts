@@ -69,9 +69,9 @@
  * TODO: lesson #8
  * * generics (keyof)
  * ? generics-with-keyof.ts
- * TODO: lesson #
- * *
- * ? .ts
+ * TODO: lesson #9
+ * * utility types (Record / Pick / Omit / Required)
+ * ? utility-types-1.ts
  * TODO: lesson #
  * *
  * ? .ts
