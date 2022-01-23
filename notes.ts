@@ -75,7 +75,7 @@
  * TODO: lesson #10
  * * utility types (readonly / immutability)
  * ? readonly-1.ts
- * TODO: lesson #
- * *
- * ? .ts
+ * TODO: lesson #11
+ * * enum and literal types
+ * ? enums.ts
  */
