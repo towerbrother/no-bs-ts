@@ -72,9 +72,9 @@
  * TODO: lesson #9
  * * utility types (Record / Pick / Omit / Required)
  * ? utility-types-1.ts
- * TODO: lesson #
- * *
- * ? .ts
+ * TODO: lesson #10
+ * * utility types (readonly / immutability)
+ * ? readonly-1.ts
  * TODO: lesson #
  * *
  * ? .ts
