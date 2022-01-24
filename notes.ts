@@ -81,9 +81,9 @@
  * TODO: lesson #12
  * * TS classes
  * ? database.ts
- * TODO: lesson #
- * *
- * ? .ts
+ * TODO: lesson #13
+ * * generics integration with classes
+ * ? database.ts
  * TODO: lesson #
  * *
  * ? .ts
