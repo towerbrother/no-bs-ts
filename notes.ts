@@ -78,4 +78,34 @@
  * TODO: lesson #11
  * * enum and literal types
  * ? enums.ts
+ * TODO: lesson #12
+ * * TS classes
+ * ? database.ts
+ * TODO: lesson #
+ * *
+ * ? .ts
+ * TODO: lesson #
+ * *
+ * ? .ts
+ * TODO: lesson #
+ * *
+ * ? .ts
+ * TODO: lesson #
+ * *
+ * ? .ts
+ * TODO: lesson #
+ * *
+ * ? .ts
+ * TODO: lesson #
+ * *
+ * ? .ts
+ * TODO: lesson #
+ * *
+ * ? .ts
+ * TODO: lesson #
+ * *
+ * ? .ts
+ * TODO: lesson #
+ * *
+ * ? .ts
  */
