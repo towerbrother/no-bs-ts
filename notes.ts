@@ -84,9 +84,9 @@
  * TODO: lesson #13
  * * generics integration with classes
  * ? database.ts
- * TODO: lesson #
- * *
- * ? .ts
+ * TODO: lesson #14
+ * * mapped types
+ * ? mapped-types.ts
  * TODO: lesson #
  * *
  * ? .ts
