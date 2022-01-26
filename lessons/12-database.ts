@@ -9,7 +9,7 @@
  *
  * Members visibility
  * - Public: the default value. A public member can be accessed anywhere.
- *  * - Protected: members are only visible to subclasses of the class they’re declared in.
+ * - Protected: members are only visible to subclasses of the class they’re declared in.
  * - Private: is like protected, but doesn’t allow access to the member even from subclasses.
  *
  * Generics

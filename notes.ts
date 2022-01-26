@@ -50,7 +50,7 @@
  * ? funcs-and-funcs.ts
  * TODO: lesson #4
  * * functions overloading
- * ? parseCoordinate.ts
+ * ? functions-overload.ts
  * TODO: challenge-1
  * * functions overloading
  * ? challenge-1.ts

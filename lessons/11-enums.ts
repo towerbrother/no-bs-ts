@@ -3,15 +3,19 @@ const loading = "loading";
 const loaded = "loaded";
 
 // the above constants are related and should stay together
+// use enums to achieve that
 enum LoadingState {
   preload = "preload",
   loading = "loading",
   loaded = "loaded",
 }
 
-//this implementation allows adding stupid parameters
-// const isLoading = (state: string) => state === "loading";
-// console.log(isLoading("dog"));
+/**
+ * this implementation allows adding stupid parameters
+ *
+ * const isLoading = (state: string) => state === "loading";
+ * console.log(isLoading("dog"));
+ */
 
 const isLoading = (state: LoadingState) => state === LoadingState.loading;
 console.log(isLoading(LoadingState.loaded));

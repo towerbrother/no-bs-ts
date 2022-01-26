@@ -19,10 +19,8 @@ function simpleStringState(
   //return of the FN -> accessor (here FN) + setter
   let str: string = initial;
   return [
-    () => str,
-    (v: string) => {
-      str = v;
-    },
+    () => str, // getter
+    (v: string) => (str = v), // setter
   ];
 }
 

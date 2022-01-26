@@ -21,7 +21,7 @@ function getEmail(user: User): string {
 }
 
 function getEmailEasy(user: User): string {
-  return user?.info?.email ?? "";
+  return user?.info?.email ?? ""; // null coalescing operator ??
 }
 
 /* ================================ */

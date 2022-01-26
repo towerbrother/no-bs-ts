@@ -16,8 +16,13 @@ console.log(arrayMutate([1, 2, 3], (v) => v * 10));
 
 /* function returning a function (CLOSURE) */
 type AdderFunction = (val: number) => number;
+
 export function createAdder(num: number): AdderFunction {
   return (val: number) => val + num;
 }
-const addOne = createAdder(1); //addOne is a function type (val: number) => number
-console.log(addOne(55)); //55 + 1
+
+//addOne / addTwenty are functions of type (val: number) => number [AdderFunction type]
+const addOne = createAdder(1);
+const addTwenty = createAdder(20);
+console.log(addOne(55)); //55 + 1 = 56
+console.log(addTwenty(32)); //32 + 20 = 52

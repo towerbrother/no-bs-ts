@@ -5,11 +5,11 @@ interface MyUser {
   phone?: number;
 }
 
-// interface MyUserOptionals {
-//   id?: string;
-//   name?: string;
-//   email?: string;
-// }
+// these are utility types - they allow to add functionalities without code duplication
+type MyUserOptionals = Partial<MyUser>;
+type MyUserRequired = Required<MyUser>;
+type MyUserJustEmailAndName = Pick<MyUser, "email" | "name">;
+type MyUserWithoutId = Omit<MyUser, "id">;
 
 const merge = (user: MyUser, overrides: MyUserOptionals): MyUser => {
   return {
@@ -24,13 +24,6 @@ console.log(
     { email: "email@mail.com" }
   )
 );
-
-// these are utility types
-// they allow to add functionalities without code duplication
-type MyUserOptionals = Partial<MyUser>;
-type MyUserRequired = Required<MyUser>;
-type MyUserJustEmailAndName = Pick<MyUser, "email" | "name">;
-type MyUserWithoutId = Omit<MyUser, "id">;
 
 //create a map with utility type Record to get a user by its id
 const mapById = (users: MyUser[]): Record<MyUser["id"], MyUserWithoutId> => {

@@ -10,8 +10,8 @@ const dogs = [
   { name: "terra", age: 15 },
 ];
 
-console.log(pluck(dogs, "age"));
-console.log(pluck(dogs, "name"));
+console.log(pluck(dogs, "age")); // [ 7, 12, 4, 15 ]
+console.log(pluck(dogs, "name")); // [ 'aqua', 'luna', 'sole', 'terra' ]
 
 /* ++++++++++++++++++++++++++++++++++++++++++++ */
 
