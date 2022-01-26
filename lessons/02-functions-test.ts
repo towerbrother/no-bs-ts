@@ -4,7 +4,7 @@ import {
   addDefaultStrings,
   format,
   printFormat,
-} from "./functions";
+} from "./02-functions";
 
 console.log(addNumbers(1, 2));
 console.log(addStrings("laura", "purnell"));
