@@ -7,15 +7,17 @@ function forEachRevisited<T>(items: T[], callback: (v: T) => void): void {
   }, undefined);
 }
 
-forEachRevisited([1, 2, 3], (v) => console.log(v * 10));
+forEachRevisited([1, 2, 3], (v) => console.log(v * 10)); // 10 20 30
+
+/* +++++++++++++++++++++++++++++++++++++++++++ */
 
 function mapRevisited<T, K>(items: T[], callback: (v: T) => K): K[] {
   return items.reduce((acc, val) => [...acc, callback(val)], [] as K[]);
 }
 
-console.log(
-  mapRevisited([1, 2, 3, 4, 5, 6, 7, 8, 9], (v) => (v * 10).toString())
-);
+console.log(mapRevisited([1, 2, 3], (v) => (v * 10).toString())); // ['10', '20', '30']
+
+/* +++++++++++++++++++++++++++++++++++++++++++ */
 
 function filterRevisited<T>(items: T[], callback: (v: T) => boolean): T[] {
   return items.reduce(
@@ -24,4 +26,4 @@ function filterRevisited<T>(items: T[], callback: (v: T) => boolean): T[] {
   );
 }
 
-console.log(filterRevisited([1, 2, 3, 4, 5, 6, 7, 8, 9], (v) => v % 2 === 0));
+console.log(filterRevisited([1, 2, 3, 4, 5, 6, 7, 8, 9], (v) => v % 2 === 0)); // [2, 4, 6, 8]
